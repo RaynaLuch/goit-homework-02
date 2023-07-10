@@ -10,3 +10,7 @@
     --color-white-background: #FFFFFF;
     --color-modal-background: #FCFCFC;
 }
+
+body {
+    font-family: "Roboto", sans-serif;
+}
