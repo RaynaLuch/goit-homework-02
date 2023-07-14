@@ -29,16 +29,13 @@ header {
   border-bottom: 1px solid var(--color-accent);
 }
 .logo-font {
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 21px;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-}
-
-.logo-left {
   color: var(--color-primary-brand);
 }
 
@@ -91,16 +88,12 @@ h1 {
   letter-spacing: 2%;
 }
 .hero button {
-  border-radius: 4px;
   color: inherit;
   background: var(--color-primary-brand);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  padding: 16px 32px;
 }
 .hero button:hover,
 .hero button:focus {
   background-color: var(--color-pressed-state);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 h2 {
   text-align: center;
@@ -134,16 +127,7 @@ h3 {
   line-height: 24px;
   letter-spacing: 0.32px;
 }
-.team li {
-  height: 380px;
-  width: 264px;
-  text-align: center;
-  border-radius: 0px 0px 4px 4px;
-  background: var(--color-white-background);
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
-    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-}
+
 footer {
   background-color: var(--color-dark);
 }
@@ -157,22 +141,12 @@ footer p {
 .portfolio-link button {
   font-family: inherit;
   color: var(--color-primary-brand);
-  border-radius: 4px;
   border: 1px solid var(--color-accent);
   background: var(--color-light);
-  padding: 12px 24px;
   cursor: pointer;
 }
 .portfolio-link button:hover,
 .portfolio-link button:focus {
   color: var(--color-white-background);
   background: var(--color-pressed-state);
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
-    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
-}
-.portfolio-box li {
-  height: 420px;
-  width: 360px;
-  border: 1px solid var(--cornflower, #e7e9fc);
-  background: var(--color-white-background);
 }
