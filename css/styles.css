@@ -76,7 +76,7 @@ body li {
   color: var(--color-white-background);
   background-color: var(--color-dark);
 }
-h1 {
+hero-title {
   text-align: center;
   font-size: 56px;
   font-style: normal;
@@ -87,6 +87,10 @@ h1 {
 .hero button {
   color: inherit;
   background: var(--color-primary-brand);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5 
+  letter-spacing: 0.04em;
 }
 .hero button:hover,
 .hero button:focus {
