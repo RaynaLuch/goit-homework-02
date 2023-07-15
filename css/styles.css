@@ -76,7 +76,7 @@ body li {
   color: var(--color-white-background);
   background-color: var(--color-dark);
 }
-hero-title {
+.hero-title {
   text-align: center;
   font-size: 56px;
   font-style: normal;
