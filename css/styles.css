@@ -84,12 +84,14 @@ body li {
   line-height: 1.07;
   letter-spacing: 0.02em;
 }
-.hero button {
+.hero-button {
   color: inherit;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
   background: var(--color-primary-brand);
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5 
+  line-height: 1.5;
   letter-spacing: 0.04em;
 }
 .hero button:hover,
