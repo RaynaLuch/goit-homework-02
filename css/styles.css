@@ -131,15 +131,15 @@ h3 {
   letter-spacing: 0.32px;
 }
 
-footer {
+.footer-style {
   background-color: var(--color-dark);
 }
-footer p {
+.footer-paragraph {
   color: var(--color-light);
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 .portfolio-link button {
   font-family: inherit;
