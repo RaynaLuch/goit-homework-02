@@ -162,15 +162,19 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.portfolio-link button {
+.portfolio-link-button {
   font-family: inherit;
   color: var(--color-primary-brand);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   border: 1px solid var(--color-accent);
   background: var(--color-light);
   cursor: pointer;
 }
-.portfolio-link button:hover,
-.portfolio-link button:focus {
+.portfolio-link-button:hover,
+.portfolio-link-button:focus {
   color: var(--color-white-background);
   background: var(--color-pressed-state);
 }
