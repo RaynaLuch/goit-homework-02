@@ -143,12 +143,13 @@ body {
   background-color: var(--color-white-background);
 }
 
-.team-text {
+.team-text,
+.portfolio-text {
   color: var(--color-text);
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 
 .footer-style {
@@ -186,11 +187,4 @@ body {
 .portfolio-link-button:focus {
   color: var(--color-white-background);
   background: var(--color-pressed-state);
-}
-
-.portfolio-text {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--color-text);
 }
