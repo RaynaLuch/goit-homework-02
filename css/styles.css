@@ -140,6 +140,10 @@ body {
   letter-spacing: 0.02em;
 }
 
+.team-card-style {
+  background-color: var(--color-white-background);
+}
+
 .team-text {
   color: var(--color-text);
   font-size: 16px;
