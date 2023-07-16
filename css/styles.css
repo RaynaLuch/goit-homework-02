@@ -59,10 +59,14 @@ body {
   text-decoration: underline;
 }
 
+.header-address {
+  font-style: normal;
+}
+
 .header-address-link {
   color: var(--color-text);
   font-size: 16px;
-  font-style: normal;
+
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
