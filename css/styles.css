@@ -44,7 +44,7 @@ body {
   color: var(--color-light);
 }
 
-.header-link a {
+.header-link {
   color: var(--color-dark);
   font-size: 16px;
   font-style: normal;
@@ -53,13 +53,13 @@ body {
   letter-spacing: 0.02em;
 }
 
-.header-link a:hover,
-.header-link a:focus {
+.header-link:hover,
+.header-link:focus {
   color: var(--color-pressed-state);
   text-decoration: underline;
 }
 
-.header-address a {
+.header-address-link {
   color: var(--color-text);
   font-size: 16px;
   font-style: normal;
@@ -68,8 +68,8 @@ body {
   letter-spacing: 0.32px;
 }
 
-.header-address a:hover,
-.header-address a:focus {
+.header-address-link:hover,
+.header-address-link:focus {
   color: var(--color-pressed-state);
 }
 .hero {
@@ -94,8 +94,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
 }
-.hero button:hover,
-.hero button:focus {
+.hero-button:hover,
+.hero-button:focus {
   background-color: var(--color-pressed-state);
 }
 h2 {
